@@ -1,35 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-
-  <div class="container-fluid" >
-    <div class="col-12" style="margin-bottom: 20px;">
-      <app-toolbar class="toolbar"></app-toolbar>
+<div class="container-fluid" >
+  <div class="toolbar col-12">
+    <app-toolbar></app-toolbar>
+  </div>
+  <div class="row">
+    <div class="col-2">
+      <app-navbar></app-navbar>
     </div>
-    <div class="row">
-      <div class="col-3">
-        <app-navbar></app-navbar>
-      </div>
-      <div class="col-9">
-        <app-content></app-content>
-      </div>
+    <div class="col-10">
+      <app-content></app-content>
     </div>
   </div>
-<!--   <div>
-    <div style="width: 100%;">
-      <app-toolbar class="toolbar"></app-toolbar>
-    </div>
-    <div style="width: 20%;">
-      <app-navbar style="width: 20%;"></app-navbar>
-    </div>
-    <app-content style="width: 20%;"></app-content>
-  </div> -->
-  
-</body>
-</html>
+</div>
